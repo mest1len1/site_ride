@@ -10,15 +10,19 @@
         <header id="header"> 
             <h2><b>Freeride.dom</b></h2>
             <div id="account">
-                <a href="login.html"><button>Войти</button></a>
+                <a href="#reg-log"><button>Войти</button></a>
                 <br>
-                <a href="reg.html"><button>Зарегистрироваться</button></a>
+                <a href="#reg-log"><button>Зарегистрироваться</button></a>
             </div>
             <hr>
             <nav>
                 <a href="#main"><button>Главная</button></a>
                 <br>
                 <a href="#bike"><button>Велосипеды</button></a>     
+                <hr>
+                <a href="#desc-all-bike">О наших веосипедах</a>
+                <br>
+                <a href="#m-torm">О наши тормоза</a>
                 <hr>
             </nav>
  
@@ -46,32 +50,63 @@
                 </ul>
                 </div>
             </section>
+            <hr>
             <section>
                 <img src="velo.jpg" alt="велосипед">
             </section>
             <hr>
+            <section id="desc-all-bike">
+                <p><b>Наши велосипеды пракрасны как никто бла бла бла</b></p>
+            </section>
+            <hr>
+            <section>
+                <article id="m-torm">
+                    <h2>Мы разработали свою <u>гидравлицескую</u> систему тормозов <b><i>NonBrake</i></b></h2>
+                </article>
+                <article id="desc-torm">
+                    Если тормозит, радуйтесь, если не, то как вы это читаете?
+                    <blockquote>Если все устраивает, хоршо, если не все устраивает то плохо</blockquote>
+                    <small>Че смотриш, давай дальше листай, я же не зрая старался</small>
+                </article>
+            </section>
+            <hr>
             <section id="reg-log">
 
-            <form>  
-                <h2>Введите данные чтобы зарегистрироваться</h2>
-                <fieldset>
-                    <legend>Поля для ввода</legend>
-                    <input type="email" name="Semail" id="email" placeholder="Ваш email">
-                    <button>
-                        Проверка почты
-                    </button>
-                    <br>
-                    <input type="password" name="Spass" id="pass" placeholder="Ваш пароль">
-                    <br>
-                    <input type="text" name="name" id="name" placeholder="Ваше имя/ник">
-                    <br>
-                    <textarea name="descrip" id="descAccReg" rows="10" minlength="20" placeholder="Описание к аккаунту" required>Мой аккаунт</textarea>
-                    <br>
-                    <button type="submit">Зарегистрироваться</button>
-                    <button type="reset">Очистить все поля</button>
-            </fieldset>
-        </form>
+                <form>  
+                    <h2>Введите данные чтобы зарегистрироваться</h2>
+                    <fieldset>
+                        <legend>Поля для ввода</legend>
+                        <input type="email" name="Semail" id="email" placeholder="Ваш email">
+                        <button>
+                            Проверка почты
+                        </button>
+                        <br>
+                        <input type="password" name="Spass" id="pass" placeholder="Ваш пароль">
+                        <br>
+                        <input type="text" name="name" id="name" placeholder="Ваше имя/ник">
+                        <br>
+                        <textarea name="descrip" id="descAccReg" rows="10" minlength="20" placeholder="Описание к аккаунту" required></textarea>
+                        <br>
+                        <button type="submit">Зарегистрироваться</button>
+                        <button type="reset">Очистить все поля</button>
+                    </fieldset>
+                </form>
 
+            </section>
+            <hr>
+            <section>
+                <figure>
+                    <img src="velo.jpg" alt="велосипед">
+                    <figcaption>велосипед</figcaption>
+                </figure>
+                <span><figure>
+                    <img src="footer_img.png" alt="нигавелосипед">
+                    <figcaption>велосипед в солнечном свету</figcaption></span>
+                </figure>
+                <span><figure>
+                    <img src="velo.jpg" alt="велосипед">
+                    <figcaption>крутой велосипед</figcaption>
+                </figure></span>
             </section>
         </main>
         <footer id="f1">
