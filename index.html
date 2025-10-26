@@ -9,20 +9,21 @@
         <!-- Название сайта + навигатор -->
         <header id="header"> 
             <h2><b>Freeride.dom</b></h2>
-            <div id="account">
-                <a href="#reg-log"><button>Войти</button></a>
-                <br>
-                <a href="#reg-log"><button>Зарегистрироваться</button></a>
-            </div>
+           
             <hr>
             <nav>
+                <div id="account">
+                    <a href="#log"><button>Войти</button></a>
+                    <br>
+                    <a href="#reg-log"><button>Зарегистрироваться</button></a>
+                </div>
                 <a href="#main"><button>Главная</button></a>
                 <br>
                 <a href="#bike"><button>Велосипеды</button></a>     
                 <hr>
                 <a href="#desc-all-bike">О наших веосипедах</a>
                 <br>
-                <a href="#m-torm">О наши тормоза</a>
+                <a href="#alltorm">О наши тормоза</a>
                 <hr>
             </nav>
  
@@ -51,22 +52,17 @@
                 </div>
             </section>
             <hr>
-             <!-- велосипед пример фото -->
             <section>
                 <img src="velo.jpg" alt="велосипед">
             </section>
             <hr>
-            <!-- про наши велосипеды -->
             <section id="desc-all-bike">
                 <p><b>Наши велосипеды пракрасны как никто бла бла бла</b></p>
             </section>
             <hr>
             <section>
-                <!-- про шедевро тормоза + огроза и тд -->
-                <article id="m-torm">
-                    <h2>Мы разработали свою <u>гидравлицескую</u> систему тормозов <b><i>NonBrake</i></b></h2>
-                </article>
-                <article id="desc-torm">
+                <article id="alltorm">
+                    <h2>Мы разработали свою <u>гидравлицескую</u> систему тормозов <i>NonBrake</i></h2>
                     Если тормозит, радуйтесь, если не, то как вы это читаете?
                     <blockquote>Если все устраивает, хоршо, если не все устраивает то плохо</blockquote>
                     <small>Че смотриш, давай дальше листай, я же не зрая старался</small>
@@ -74,15 +70,12 @@
             </section>
             <hr>
             <section id="reg-log">
-                    <!-- рега или войти -->
+                <h2>Введите данные чтобы зарегистрироваться</h2>
                 <form>  
-                    <h2>Введите данные чтобы зарегистрироваться</h2>
+                    
                     <fieldset>
                         <legend>Поля для ввода</legend>
                         <input type="email" name="Semail" id="email" placeholder="Ваш email">
-                        <button>
-                            Проверка почты
-                        </button>
                         <br>
                         <input type="password" name="Spass" id="pass" placeholder="Ваш пароль">
                         <br>
@@ -97,29 +90,30 @@
 
             </section>
             <hr>
-            <!-- галерея -->
             <section>
                 <figure>
                     <img src="velo.jpg" alt="велосипед">
                     <figcaption>велосипед</figcaption>
                 </figure>
-                <span><figure>
+                <figure>
                     <img src="footer_img.png" alt="нигавелосипед">
-                    <figcaption>велосипед в солнечном свету</figcaption></span>
+                    <figcaption>велосипед в солнечном свету</figcaption>
                 </figure>
-                <span><figure>
+                <figure>
                     <img src="velo.jpg" alt="велосипед">
                     <figcaption>крутой велосипед</figcaption>
-                </figure></span>
+                </figure>
             </section>
         </main>
         <footer id="f1">
             <!-- переход в верх и соцсети -->
+            <a href="#header">
             <figure>
-                <a href="#header"><img src="footer_img.png" alt="Freeride.dom img"></a>
+                <img src="footer_img.png" alt="Freeride.dom img">
                 <figcaption>
                     <p><small>HOME</small></p>
                 </figcaption>
+            </a>
             </figure>
             <a href="https://web.telegram.org/k/"><p><b>Telegramm</b></p></a>
             <a href="https://www.youtube.com/"><p><b>Youtube</b></p></a>
@@ -127,4 +121,3 @@
         </footer>
     </body>
 </html>
-
