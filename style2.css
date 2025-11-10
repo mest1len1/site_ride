@@ -1,0 +1,27 @@
+* {
+    background-color: rgb(232, 215, 181);
+    color: rgb(225, 112, 71);
+}
+
+.to {
+    color: chocolate;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+hr {
+    width: 60%;
+}
+
+.name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header {
+    text-align: center;
+}
+#s1 {
+    text-align: center;
+}
+.ss {
+    font-size: 100px;
+    color: cornflowerblue;
+}
