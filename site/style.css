@@ -1,0 +1,63 @@
+* {
+    background-color: rgb(94, 94, 94);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header {
+    text-align: center;
+}
+.tohome {
+    width: 253px;
+    height: 253px;
+}
+.soc {
+    text-align: center;
+}
+.img-tg {
+    width: 27px;
+    height: 27px;
+    vertical-align: 35%;
+}
+.txt-tg {
+    vertical-align: 75%;
+}
+
+a {
+    text-decoration: none;
+}
+.img-yt
+{
+    width: 27px;
+    height: 27px;
+    vertical-align: 40%;
+}
+.txt-yt {
+    vertical-align: 85%;
+}
+.vl {
+    width: 49.5%;
+    height: 400px;
+}
+.txt-dartmoor {
+    font-size: 25px;
+}
+.dm-hr {
+    margin-left: 0px;
+    width: 150px;
+}
+#desc-all-bike p {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#f1 {
+    display: flex;
+}
+
+.soc {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 30%;
+}

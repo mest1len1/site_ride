@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            All in one
+        </title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body> 
+        <!-- Название сайта + навигатор -->
+        <header id="header"> 
+            <h2><b>Freeride.dom</b></h2>
+           
+            <hr>
+            <nav>
+                <div id="account">
+                    <a href="#log"><button>Войти</button></a>
+                    <a href="#reg-log"><button>Зарегистрироваться</button></a>
+                </div>
+                <hr>
+                <div class="nav2">
+                    <a href="#main"><button>Главная</button></a>
+                    <a href="#bike"><button>Велосипеды</button></a>     
+                </div>
+                <hr>
+                <a href="#desc-all-bike">О наших веосипедах</a>
+                <br>
+                <a href="#alltorm">О наши тормоза</a>
+                <hr>
+            </nav>
+ 
+        </header>
+        <!-- продукция -->
+        <main id="main">
+            <!-- велосипеды -->
+            <section id="bike">
+                <article id="Dartmoor">
+                    <b class="txt-dartmoor">Dartmoor</b>
+                    <hr class="dm-hr">
+                    <b>Player 26</b>
+                    <a href="Dartmoor_hornet_pro.html"><i>info bike</i></a>
+                    <br>
+                    <b>Hornet</b>
+                    <a href="Dartmoor_hornet_pro.html"><i>info bike</i></a>
+                    <br>
+                    <b>Hornet pro</b>
+                    <a href="Dartmoor_hornet_pro.html"><i>info bike</i></a>
+                </article>
+            </section>
+            <hr>
+            <section>
+                <img class="vl" src="velo.jpg" alt="велосипед">
+                <img class="vl" src="footer_img.png" alt="нигавелосипед">
+            </section>
+            <hr>
+            <section id="desc-all-bike">
+                <p><b>Наши велосипеды пракрасны как никто бла бла бла</b></p>
+            </section>
+            <hr>
+            <section>
+                <article id="alltorm">
+                    <h2>Мы разработали свою <u>гидравлицескую</u> систему тормозов <b><i>NonBrake</i></b></h2>
+                    Если тормозит, радуйтесь, если не, то как вы это читаете?
+                    <blockquote>Если все устраивает, хоршо, если не все устраивает то плохо</blockquote>
+                    <small>Че смотриш, давай дальше листай, я же не зрая старался</small>
+                </article>
+            </section>
+            <hr>
+            <section id="reg-log">
+                <h2>Введите данные чтобы зарегистрироваться</h2>
+                <form>  
+                    
+                    <fieldset>
+                        <legend>Поля для ввода</legend>
+                        <input type="email" name="Semail" id="email" placeholder="Ваш email">
+                        <br>
+                        <input type="password" name="Spass" id="pass" placeholder="Ваш пароль">
+                        <br>
+                        <input type="text" name="name" id="name" placeholder="Ваше имя/ник">
+                        <br>
+                        <textarea name="descrip" id="descAccReg" rows="10" minlength="20" placeholder="Описание к аккаунту" required></textarea>
+                        <br>
+                        <button type="submit">Зарегистрироваться</button>
+                        <button type="reset">Очистить все поля</button>
+                    </fieldset>
+                </form>
+
+            </section>
+            <hr>
+        </main>
+        <footer id="f1">
+            <!-- переход в верх и соцсети -->
+            <a href="#header">
+            <figure id="f">
+                <img class="tohome" src="footer_img.png" alt="Freeride.dom img">
+                
+                    <small>HOME</small>
+                
+                </figure>
+            </a>
+            
+            <div class="soc">
+                
+                <a href="https://web.telegram.org/k/">
+                    <img class="img-tg" src="Telegram_2019_Logo.svg.webp" alt="img-tg">
+                    <b class="txt-tg">Telegramm</b>
+                </a>
+                <br>
+                
+                <a href="https://www.youtube.com/">
+                    <img class="img-yt" src="YouTube_social_white_squircle.svg.png" alt="img-yt">
+                    <b class="txt-yt">Youtube</b>
+                </a>
+            </div>
+            
+
+        </footer>
+    </body>
+</html>
