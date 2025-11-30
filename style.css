@@ -1,22 +1,103 @@
 * {
-    background-color: coral;
+    background-color: rgb(94, 94, 94);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1 {
-    background-color: aqua;
-    font-size: 100px;
+#header {
+    text-align: center;
+}
+.tohome {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+.soc {
+    text-align: center;
+}
+.img-tg {
+    width: 27px;
+    height: 27px;
+    vertical-align: 35%;
+}
+.txt-tg {
+    vertical-align: 75%;
 }
 
-p {
-    font-size: 200px;
+a {
+    text-decoration: none;
+}
+.img-yt
+{
+    width: 27px;
+    height: 27px;
+    vertical-align: 40%;
+}
+.txt-yt {
+    vertical-align: 85%;
+}
+.vl {
+    width: 49.5%;
+    height: 300px;
+}
+.txt-dartmoor {
+    font-size: 25px;
+}
+.dm-hr {
+    margin-left: 0px;
+    width: 150px;
+}
+#desc-all-bike p {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#f1 {
+    display: flex;
 }
 
-.style1 {
-    background-color: beige;
-    font-size: 40;
+.soc {
+    padding-top: 100px;
+    padding-bottom: 0px;
+    padding-left: 30%;
+}
+#Dartmoor a {
+    color: rgb(86, 95, 164);
+}
+fieldset {
+    border-radius: 20px;
+    border-width: 4px;
+    padding: 12px;
+    
+}
+fieldset * {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    padding: 8px 10px;
+    border: 4px solid #ffffff;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    max-width: 100%;
+}
+fieldset button {
+    background-color: #ffffff;
+    color: rgb(94, 94, 94)
+}
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    border-radius: 20px;
+    border: 4px solid rgb(255, 255, 255);
+    padding: 20px;
+}
+#reg-log h2 {
+    text-align: center;
 }
 
-#classb {
-    background-color: aquamarine;
-    font-size: 20;
-}
